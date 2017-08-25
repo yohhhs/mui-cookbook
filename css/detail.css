@@ -1,0 +1,32 @@
+.mui-content {
+	background: #ffffff;
+}
+.detail {
+	padding: 10px;
+}
+.mui-content img {
+	margin-bottom: 8px;
+	width: 100%;
+}
+.title {
+	margin-bottom: 10px;
+	line-height: 1.25;
+	font-size: 16px;
+	font-weight: 100;
+}
+.summary {
+	margin-bottom: 5px;
+	line-height: 1.2;
+	font-size: 14px;
+}
+.ingredients {
+	margin: 15px 0;
+	line-height: 1.4;
+}
+.method {
+	padding-bottom: 20px;
+}
+.method p {
+	margin-bottom: 8px;
+	color: #444444;
+} 

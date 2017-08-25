@@ -1,0 +1,37 @@
+.menu {
+	background: #fff;
+}
+.menu-title {
+	padding: 15px 10px;
+	border-bottom: 1px solid rgba(7, 17, 27, .1);
+	font-size: 16px;
+	font-weight: 100;
+}
+.menu-cont {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding-top: 1rem;
+}
+.menu-item {
+	padding: 0 1rem;
+	margin-bottom: 1rem;
+	width: 25%; 		
+}
+.menu-item-text {
+	display: block;
+	height: 3.2rem;
+	line-height: 3.2rem;
+	text-align: center;
+	border-radius: 5px;   
+	border: 1px solid #F0F0F0;
+	font-size: 12px;
+	color: #07111B;
+}
+.menu-item-text:active {
+	background: #F0F0F0;
+}
+.search {
+	
+}

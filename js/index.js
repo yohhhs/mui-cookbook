@@ -46,11 +46,11 @@ mui.init();
   			url: "page/vegetableslist.html",
   			id: "page/vegetableslist.html",
   			waiting: {
-  				autoShow: false
+  				autoShow: false // 禁止默认转场loading
   			},
-  			extras:{
-  				vegetablesId: vegetablesId,
-  				vegetablesName: vegetablesName
+  			extras:{ // 传递菜谱id和名称
+  				vegetablesId: vegetablesId, 
+  				vegetablesName: vegetablesName 
 		    }
   		})
   	})

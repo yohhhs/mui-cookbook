@@ -11,8 +11,8 @@ mui.init()
 		load = PullUp();
 	load.loadMore(getList);
 	mui.plusReady(function(){
-		var self = plus.webview.currentWebview();
-		cid = self.vegetablesId;
+		var self = plus.webview.currentWebview(); // 获取当前webview
+		cid = self.vegetablesId; // 获取传递过来的菜谱id
 		vegetablesName.innerText = self.vegetablesName;
 		getList();
 	})
@@ -66,6 +66,7 @@ mui.init()
 		})
 		return _spanCode;
 	}
+	// 图片懒加载
 	function lazy(){
 		var i = 0,
 			imgList = mui(".lazy-img[data-src]"),
